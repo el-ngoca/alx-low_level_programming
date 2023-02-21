@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - This is if statiment functions
+ *main - This is if statiment functions
  *Description: prints if a number is positive or negtive
- * return: 0 (sucsses)
+ *Return: 0 (sucsses)
  */
 int main(void)
 {
