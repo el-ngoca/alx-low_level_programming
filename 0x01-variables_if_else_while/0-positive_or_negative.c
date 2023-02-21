@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - this is if statiment fucntions
+ * main - This is if statiment functions
  *
- * return: 0(sucsee)
+ * return: 0 (sucsses)
  */
 int main(void)
 {
