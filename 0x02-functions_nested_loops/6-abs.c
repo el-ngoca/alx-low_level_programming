@@ -2,7 +2,7 @@
 /**
  * _abs - Thisprint absolet values
  * @n: represent the numbers
- * Return: (n), otherwise (-1)
+ * Return: (n), otherwise (-n)
  */
 int _abs(int n)
 {
@@ -10,5 +10,5 @@ int _abs(int n)
 	{
 		return (n);
 	}
-return (-1);
+return (-n);
 }
