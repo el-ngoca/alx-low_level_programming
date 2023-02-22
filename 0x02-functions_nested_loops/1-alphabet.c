@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * printer_label - This project is to write alphabet
+ * print_alphabet - This project is to write alphabet
  */
 void print_alphabet(void)
 {
 	char letter;
-	for(letter = a;letter < 'z';letter ++)
+
+	for (letter = a; letter < 'z'; letter++)
 		_putchar(letter);
 	_putchar("/n");
 }
