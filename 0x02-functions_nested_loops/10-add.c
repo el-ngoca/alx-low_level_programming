@@ -12,5 +12,5 @@ int add(int a, int b)
 
 	k = a + b;
 
-	return (c);
+	return (k);
 }
