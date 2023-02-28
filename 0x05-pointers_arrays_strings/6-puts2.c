@@ -15,10 +15,10 @@ void puts2(char *str)
 		y++;
 		l++;
 	}
-	t= l - 1;
-	for (o = 0; o < t; o++)
+	t = l - 1;
+	for (o = 0; o <= t; o++)
 	{
-		if(o % 2 == 0)
+		if (o % 2 == 0)
 		{
 			_putchar (str[o]);
 		}
