@@ -7,14 +7,15 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int dest_len = strlen(dest);
-	int i;
+	int dest_len = 0;
+	int i = 0;
 
-	while(i = 0; src[i] ; i++)
+	while (dest[i++])
 	{
-		dest[dest_len + i] = src [i];
+		dest_len++;
 	}
-	dest[dest_len + i]= '\n';
+	for (i = 0;src[i]; i++)
+		dest[dest_len++] = src[i];
 
-	return dest;
+	return (dest);
 }
